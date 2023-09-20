@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><!-- Дневная тема (LightTheme) -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Другие настройки для дневной темы -->
+    </style>
+
+    <!-- Ночная тема (DarkTheme) -->
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Другие настройки для ночной темы -->
+    </style>
+</resources>
